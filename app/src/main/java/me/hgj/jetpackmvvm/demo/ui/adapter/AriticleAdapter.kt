@@ -28,7 +28,7 @@ class AriticleAdapter(data: MutableList<AriticleResponse>?) :
     }
 
     init {
-        setAdapterAnimation(SettingUtil.getListMode())
+//        setAdapterAnimation(SettingUtil.getListMode())
         // 第一步，设置代理
         setMultiTypeDelegate(object : BaseMultiTypeDelegate<AriticleResponse>() {
             override fun getItemType(data: List<AriticleResponse>, position: Int): Int {
